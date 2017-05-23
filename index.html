@@ -7,27 +7,28 @@
 <body>
      <form action="https://formspree.io/klibanoforos@gmail.com" method="post">
         Imię:<br>
-        <input type="text" name="imie"> <br><br>
+        <input type="text" name="Imię"> <br><br>
         Nazwisko:<br>
-        <input type="text" name="nazwisko"> <br><br>
+        <input type="text" name="Nazwisko"> <br><br>
         Adres email:<br>
-        <input type="email" name="adres email"> <br><br>
+        <input type="email" name="Adres email"> <br><br>
         Telefon:<br>
-        <input type="tel" name="telefon"> <br><br>
-        Miasto:<br>
-        <input type="radio" name="miasto"> Warszawa <br>
-        <input type="radio" name="miasto"> Kraków <br>
-        <input type="radio" name="miasto"> Gdańsk <br><br>
+        <input type="tel" name="Telefon"> <br><br> 
+       	Miasto:<br>
+       	<select>
+  		<option value="warszawa">Warszawa</option>
+  		<option value="krakow">Kraków</option>
+  		<option value="gdansk">Gdańsk</option>
+		</select> <br><br>
         Płeć:<br>
-        <input type="radio" name="plec"> Mężczyzna <br>
-        <input type="radio" name="plec"> Kobieta <br><br>
+        <input type="radio" name="Płeć" value=mezczyzna> Mężczyzna <br>
+        <input type="radio" name="Płeć" value=kobieta> Kobieta <br><br>
         Zgoda na przetwarzanie danych osobowych
-        <input type="radio" name="zgoda"> Zgadzam się <br><br>
+        <input type="checkbox" name="Zgoda"> Zgadzam się <br><br>
         Wiadomość:<br>
-        <textarea name="wiadomosc" rows="10" cols="30"></textarea> <br>
-        
-        <input type="submit" name="wyslij" value="Wyślij">
-        
-    </form>
+        <textarea name="Wiadomość" rows="10" cols="30"></textarea> <br>
+        <input type="reset">
+        <input type="submit">
+   </form>
 </body>
 </html>
